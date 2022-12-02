@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { Hero, About, Services, Programming, EducationAndExperience, TestimonialsAndClients, Projects, Contact, Footer } from './pages';
-import { Navbar } from './components';
+import { Navbar, Rings } from './components';
 
 const App = () => (
-  <div>
+  <div className="bg-[#363636] text-white overflow-hidden">
     <Navbar />
     <Hero />
     <About />
