@@ -4,7 +4,7 @@ import image from '../assets/index.js';
 
 const Navbar = () => (
   <div className="flex place-content-between items-center">
-    <img src={image.logoDark} alt="logodark" className="w-[200px] h-[200px] ml-10" />
+    <img src={image.logoDark} alt="logodark" className="w-[180px] h-[180px] ml-10" />
     <div className="flex gap-10 mr-16">
       <div className="">
         Home
