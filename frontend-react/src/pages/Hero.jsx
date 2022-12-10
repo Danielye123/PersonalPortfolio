@@ -26,9 +26,10 @@ const Hero = () => {
       },
     },
   };
-
+// mt-[210px] mb-[210px]"
   return (
     <div
+      id="hero"
       className="relative text-center flex flex-col items-center justify-center mt-[210px] mb-[210px]"
     >
       <Rings />

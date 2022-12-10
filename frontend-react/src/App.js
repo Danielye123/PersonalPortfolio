@@ -18,16 +18,3 @@ const App = () => (
   </div>
 );
 export default App;
-/*
-      {/* <motion.div
-        variants={scaleVariants}
-        whileInView={scaleVariants.whileInView}
-        className="app__header-circles"
-      >
-        {[image.htmlImage, image.cssImage, image.javascriptImage].map((circle, index) => (
-          <div className="" key={`circle-${index}`}>
-            <img src={circle} alt="profile_bg" />
-          </div>
-        ))}
-      </motion.div> }
-*/
