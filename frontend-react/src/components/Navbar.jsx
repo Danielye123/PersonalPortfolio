@@ -1,7 +1,33 @@
 import React from 'react';
 
+import image from '../assets/index.js';
+
 const Navbar = () => (
-  <div>Navbar this is a navbaar</div>
+  // fixed navbar or no fixed navbar
+  <div className="container flex place-content-between items-center overflow-hidden w-full z-10">
+    <img src={image.logoDark} alt="logodark" className="w-[180px] h-[180px] ml-10" />
+    <div className="flex gap-10 mr-16 bg-[#363636]" id="navbar">
+      <div>
+        <a href="#hero" type="btn">
+          Home
+        </a>
+      </div>
+      <div className="">
+        <a href="#about">
+          About
+        </a>
+      </div>
+      <div className="">
+        Work
+      </div>
+      <div className="">
+        Skills
+      </div>
+      <div className="">
+        Contact
+      </div>
+    </div>
+  </div>
 );
 
 export default Navbar;
