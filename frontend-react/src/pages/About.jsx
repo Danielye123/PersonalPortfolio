@@ -42,7 +42,7 @@ const About = () => {
       id="about"
       className="relative text-center flex flex-col items-center justify-center mt-[400px] "
     >
-      <h1 className="text-5xl mb-4 pb-4 tracking-wide leading-normal">
+      <h1 className="text-7xl mb-4 pb-4 tracking-wide leading-normal">
         I know
         <span className="text-sky-600 mb-4 pb-4"> Good Design </span>
         <br className="my-4" />
