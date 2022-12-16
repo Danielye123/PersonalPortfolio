@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Hero, About, Services, Programming, EducationAndExperience, TestimonialsAndClients, Projects, Contact, Footer } from './pages';
+import { Hero, About, Programming, EducationAndExperience, TestimonialsAndClients, Projects, Contact, Footer, Work } from './pages';
 import { Navbar } from './components';
 
 const App = () => (
@@ -8,7 +8,7 @@ const App = () => (
     <Navbar />
     <Hero />
     <About />
-    <Services />
+    <Work />
     <Programming />
     <EducationAndExperience />
     <TestimonialsAndClients />

@@ -18,7 +18,9 @@ const Navbar = () => (
         </a>
       </div>
       <div className="">
-        Work
+        <a href="#work">
+          Work
+        </a>
       </div>
       <div className="">
         Skills

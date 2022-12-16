@@ -26,7 +26,7 @@ const Hero = () => {
       },
     },
   };
-// mt-[210px] mb-[210px]"
+  // mt-[210px] mb-[210px]"
   return (
     <div
       id="hero"
