@@ -24,7 +24,7 @@ const Work = () => {
 
     <div
       id="work"
-      className="flex flex-col items-center justify-center mt-[200px]"
+      className="flex flex-col items-center justify-center mt-[400px]"
     >
       <h1 className="text-7xl">
         My Creative <span className="text-sky-600"> Portfolio </span> Section

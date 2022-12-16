@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Hero, About, Programming, EducationAndExperience, TestimonialsAndClients, Projects, Contact, Footer, Work } from './pages';
+import { Hero, About, Skills, Contact, Footer, Work } from './pages';
 import { Navbar } from './components';
 
 const App = () => (
@@ -9,10 +9,7 @@ const App = () => (
     <Hero />
     <About />
     <Work />
-    <Programming />
-    <EducationAndExperience />
-    <TestimonialsAndClients />
-    <Projects />
+    <Skills />
     <Contact />
     <Footer />
   </div>

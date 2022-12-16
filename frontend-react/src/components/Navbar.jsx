@@ -23,10 +23,14 @@ const Navbar = () => (
         </a>
       </div>
       <div className="">
-        Skills
+        <a href="#skills">
+          Skills
+        </a>
       </div>
       <div className="">
-        Contact
+        <a href="#contact">
+          Contact
+        </a>
       </div>
     </div>
   </div>

@@ -11,6 +11,10 @@ import about03 from './about03.png';
 import CarRental from './CarRental.PNG';
 import filmpire from './filmpire.PNG';
 import Lyriks from './Lyriks.PNG';
+import git from './git.png';
+import figma from './figma.png';
+import python from './python.png';
+import redux from './redux.png';
 
 export default {
   logoLight,
@@ -26,4 +30,8 @@ export default {
   CarRental,
   filmpire,
   Lyriks,
+  git,
+  figma,
+  python,
+  redux,
 };
