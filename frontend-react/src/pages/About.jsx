@@ -52,7 +52,7 @@ const About = () => {
       >
         {abouts.map((about, index) => (
           <div className="" key={about.title + index}>
-          {console.log(about.imgURL)}
+            {console.log(about.imgURL)}
             <img
               src={urlFor(about.imgURL)}
               alt={about.img}
