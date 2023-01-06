@@ -4,8 +4,8 @@ import { Hero, About, Skills, Contact, Footer, Work, TestimonialsAndClients } fr
 import { Navbar } from './components';
 
 const App = () => (
-  <div className="bg-[#363636] text-white overflow-hidden">
-    <Navbar />
+  <div className="bg-[#101010] text-white overflow-hidden">
+    {/* <Navbar /> */}
     <Hero />
     <About />
     <Work />

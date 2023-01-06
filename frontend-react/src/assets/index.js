@@ -15,6 +15,7 @@ import git from './git.png';
 import figma from './figma.png';
 import python from './python.png';
 import redux from './redux.png';
+import cssbackground from './cssbackground.jpg';
 
 export default {
   logoLight,
@@ -34,4 +35,5 @@ export default {
   figma,
   python,
   redux,
+  cssbackground,
 };

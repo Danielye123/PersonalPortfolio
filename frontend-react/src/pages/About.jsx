@@ -23,52 +23,49 @@ const About = () => {
     },
   ];
 
-  // const [abouts, setAbouts] = useState([]);
+  const [abouts, setAbouts] = useState([]);
 
-  // useEffect(() => () => {
-  //   const query = '*[_type == "abouts"]';
+  useEffect(() => () => {
+    const query = '*[_type == "abouts"]';
 
-  //   client.fetch(query)
-  //     .then((data) => {
-  //       setAbouts(data);
-  //       console.log(`this is ${data}`);
-  //     });
-  // }, []);
-  // console.log(client.data);
+    client.fetch(query)
+      .then((data) => {
+        setAbouts(data);
+      });
+  }, []);
 
   return (
 
     <div
       id="about"
-      className="relative text-center flex flex-col items-center justify-center mt-[400px] "
+      className="relative text-center flex flex-col items-center justify-center py-[200px] bg-[#101010]"
     >
-      <h1 className="text-7xl mb-4 pb-4 tracking-wide leading-normal">
+      <h1 className="text-7xl mb-4 pb-4 tracking-wide text-center leading-normal">
         I know
         <span className="text-sky-600 mb-4 pb-4"> Good Design </span>
         <br className="my-4" />
         Means
         <span className="text-sky-600"> Good Business</span>
       </h1>
-      <div>
-        <motion.div
-          className="flex flex-row text-center items-center justify-center mx-[300px] mt-[50px] gap-10"
-        >
-          {aboutContainer.map((about, index) => (
-            <div className="" key={about.title + index}>
-              <img
-                src={about.imgURL}
-                alt={about.title}
-                className=""
-              />
-              <span className="font-semibold">
-                {about.title}
-              </span>
-              <br />
-              {about.description}
-            </div>
-          ))}
-        </motion.div>
-      </div>
+      <motion.div
+        className="flex flex-row text-center items-center justify-center mx-[300px] mt-[50px] gap-10 columns-2"
+      >
+        {abouts.map((about, index) => (
+          <div className="" key={about.title + index}>
+          {console.log(about.imgURL)}
+            <img
+              src={urlFor(about.imgURL)}
+              alt={about.img}
+              className=""
+            />
+            <span className="font-semibold">
+              {about.title}
+            </span>
+            <br />
+            {about.description}
+          </div>
+        ))}
+      </motion.div>
     </div>
   );
 };

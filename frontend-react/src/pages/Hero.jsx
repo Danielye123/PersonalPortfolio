@@ -30,27 +30,34 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative text-center flex flex-col items-center justify-center mt-[210px] mb-[210px]"
+      className="relative text-center flex flex-col items-center justify-center"
     >
-      <Rings />
-      <img
-        src={image.profilePic}
-        alt="lightLogo"
-        className="w-[300px] h-[300px] rounded-full  object-cover"
-      />
-      <div className="overflow-hidden">
-        <h1 className="mt-4 mb-4 font-bold text-3xl text-[#F7AB0A] tracking-[15px]">
-          Daniel Ye
-        </h1>
-        <h2>
-          <span className="text-white">{`< ${text} />`}</span>
-          <Cursor cursorColor="#F7AB0A" />
-        </h2>
+      <div
+        className="z-10 flex flex-col items-center justify-center py-[300px] bg-[#101010]"
+      >
+        <Rings />
+        <img
+          src={image.profilePic}
+          alt="lightLogo"
+          className="w-[300px] h-[300px] rounded-full object-cover z-10"
+        />
+        <div className="absolute -z-1 bg-pink-600 rounded-full w-[310px] h-[310px] blur mb-[90px] animate-pulse duration-[3000] delay-100" />
+
+        <div className=" overflow-hidden">
+          <h1 className="mt-4 mb-4 font-bold text-3xl text-[#F7AB0A] tracking-[15px]">
+            Daniel Ye
+          </h1>
+          <h2>
+            <span className="text-white">{`< ${text} />`}</span>
+            <Cursor cursorColor="#F7AB0A" />
+          </h2>
+        </div>
       </div>
+
       <motion.div
         variants={scaleVariants}
         whileInView={scaleVariants.whileInView}
-        className="absolute -inset-y-24 right-64 w-32 h-32"
+        className="absolute inset-y-48 right-64 w-32 h-32"
       >
         <img
           src={image.htmlImage}

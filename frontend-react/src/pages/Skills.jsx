@@ -41,7 +41,7 @@ const Skills = () => {
 
     <div
       id="skills"
-      className="flex flex-col items-center justify-center mt-[300px]"
+      className="flex flex-col items-center justify-center py-[200px]"
     >
       <h1 className="text-7xl text-center">
         Here are my <span className="text-sky-600"> Skills </span>
