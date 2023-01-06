@@ -1,6 +1,6 @@
 export default {
-    name: 'abouts',
-    title: 'Abouts',
+    name: 'skills',
+    title: 'Skills',
     type: 'document',
     fields: [
         {
@@ -9,17 +9,12 @@ export default {
             type: 'string'
         },
         {
-            name: 'description',
-            title: 'Description',
-            type: 'string'
-        },
-        {
-            name: 'imgURL',
-            title: 'ImgURL',
+            name: 'icon',
+            title: 'Icon',
             type: 'image',
             options: {
                 hotspot: true,
-            }
+            },
         },
     ]
 }

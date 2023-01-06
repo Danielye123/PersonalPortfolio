@@ -1,6 +1,6 @@
 export default {
-    name: 'abouts',
-    title: 'Abouts',
+    name: 'work',
+    title: 'Work',
     type: 'document',
     fields: [
         {
@@ -14,7 +14,7 @@ export default {
             type: 'string'
         },
         {
-            name: 'imgURL',
+            name: 'imageurl',
             title: 'ImgURL',
             type: 'image',
             options: {
